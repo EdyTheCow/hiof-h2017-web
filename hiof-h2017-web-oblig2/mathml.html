@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="nb-NO">
+
+	<head>
+		<title>Webutvikling | OBLIG 2</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		<script src="https://use.fontawesome.com/22eadc22ef.js"></script>
+		<script src="https://fred-wang.github.io/mathjax.js/mpadded-min.js"></script>
+	</head>
+
+	<body>
+
+		<header>
+			<h1>Webutvikling - OBLIG 2</h1>
+		</header>
+
+		<nav>
+			<ul>
+  				<li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Hjem</a></li>
+  				<li><a href="omside.html"><i class="fa fa-info-circle" aria-hidden="true"></i> Om siden</a></li>
+  				<li><a href="mathml.html"><i class="fa fa-calculator" aria-hidden="true"></i> MathML</a></li>
+  				<li><a href="svg.html"><i class="fa fa-picture-o" aria-hidden="true"></i> SVG</a></li>
+    			<li><a href="git.html"><i class="fa fa-github" aria-hidden="true"></i> Git og GitHub</a></li>
+			</ul>
+		</nav>
+
+		<div id="wrapper">
+
+			<main>
+
+				<article>
+					<h2>Hva er MathML?</h2>
+					<p>MathML «Mathematical Markup Language» er en standard vedtatt av «W3C» som den godkjente måten å uttrykke matte på nettet. MathML er nødvendig fordi HTML ikke har noen mulighet til å markere matematiske uttrykk. Bruke av MathML gir tilgjengelighet til matte innenfor digitale dokumenter.</p>
+
+					<p>Før MathML ble det ofte brukt bilder for å sette inn likninger tatt fra andre programvareprodukter, inn i dokumentene sine. En slik praksis er problematisk fordi grafiske bilder er ofte utilgjengelige. MathML består av en rekke «Extensible Markup Language» (XML) tags som gir midler til å markere en ligning i form av både presentasjon og semantikk.</p>
+
+          <p>Jeg brukte script fra «<a href="https://developer.mozilla.org/en-US/docs/Web/MathML/Authoring">developer.mozilla.org</a>» for å legge til support for MathML. </p>
+
+					<h3>MathML eksempler</h3>
+					<p>Her er noen eksempler jeg fant på google</p>
+					<ul>
+						<li><a href="https://www.drillster.com/info/mathml">drillster.com</a></li>
+						<li><a href="http://www.freedomscientific.com/content/html/jawshq/MathML-Samples.html">freedomscientific.com</a></li>
+					</ul>
+
+					<table>
+  						<tr>
+    						<th>Beskrivelse</th>
+    						<th>Formel</th>
+  						</tr>
+
+  						<tr>
+    						<td>Areal av en sirkel</td>
+    						<td>
+    							<math>
+  									<mi>&#x3C0;</mi>
+  									<msup>
+    									<mi>r</mi>
+    									<mn>2</mn>
+  									</msup>
+								</math>
+    						</td>
+  						</tr>
+
+  						<tr>
+    						<td>Avansert likning</td>
+    						<td>
+    							<math>
+  									<mfenced>
+    									<mrow>
+      										<mi>x</mi>
+      										<mo>+</mo>
+      										<mn>2</mn>
+    									</mrow>
+  									</mfenced>
+  									<mfenced>
+    									<mrow>
+      										<mi>x</mi>
+      										<mo>-</mo>
+      										<mn>5</mn>
+    									</mrow>
+  									</mfenced>
+  									<mo>=</mo>
+  									<msup>
+    									<mi>x</mi>
+    									<mn>2</mn>
+  									</msup>
+  									<mo>-</mo>
+  									<mn>2</mn>
+  									<mi>x</mi>
+  									<mo>-</mo>
+  									<mn>15</mn>
+  								</math>
+    						</td>
+  						</tr>
+
+  						<tr>
+    						<td>Kvadratisk formel</td>
+    						<td>
+    							<math>
+    							  <mrow>
+    							    <mi>x</mi>
+    							    <mo>=</mo>
+    							    <mfrac>
+    							      <mrow>
+    							        <mrow>
+    							          <mo>-</mo>
+    							          <mi>b</mi>
+    							        </mrow>
+    							        <mo>&#xB1;</mo>
+    							        <msqrt>
+    							          <mrow>
+    							            <msup>
+    							              <mi>b</mi>
+    							              <mn>2</mn>
+    							            </msup>
+    							            <mo>-</mo>
+    							            <mrow>
+    							              <mn>4</mn>
+    							              <mo>&#x2062;</mo>
+    							              <mi>a</mi>
+    							              <mo>&#x2062;</mo>
+    							              <mi>c</mi>
+    							            </mrow>
+    							          </mrow>
+    							        </msqrt>
+    							      </mrow>
+    							      <mrow>
+    							        <mn>2</mn>
+    							        <mo>&#x2062;</mo>
+    							        <mi>a</mi>
+    							      </mrow>
+    							    </mfrac>
+    							  </mrow>
+    							</math>
+    						</td>
+  						</tr>
+					</table>
+					<br />
+
+				</article>
+			</main>
+		</div>
+		<footer>
+			<p><a href="omside.html">Om denne siden</a></p>
+		</footer>
+	</body>
+</html>

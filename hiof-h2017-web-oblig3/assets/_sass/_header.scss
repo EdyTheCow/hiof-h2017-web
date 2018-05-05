@@ -1,0 +1,16 @@
+header {
+    grid-area: header;
+
+    /* 
+    Jeg vet jeg kunne brukt farge her, men oppgavens krav var til å ha et bilde i header.
+    Oppgaven alrdi sagt noe om hva slags bilde det skulle være.
+    Jeg synes ikke at en random bilde kunne passet designet mitt.
+     */ 
+    background-image: url("../img/header_img.png");
+
+}
+
+header h1 {
+    text-align: center;
+    color: #FFF;
+}

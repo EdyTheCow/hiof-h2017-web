@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="nb-NO">
+
+	<head>
+		<title>Webutvikling | OBLIG 2</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		<script src="https://use.fontawesome.com/22eadc22ef.js"></script>
+	</head>
+
+	<body>
+
+		<header>
+			<h1>Webutvikling - OBLIG 2</h1>
+		</header>
+
+		<nav>
+			<ul>
+  				<li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Hjem</a></li>
+  				<li><a href="omside.html"><i class="fa fa-info-circle" aria-hidden="true"></i> Om siden</a></li>
+  				<li><a href="mathml.html"><i class="fa fa-calculator" aria-hidden="true"></i> MathML</a></li>
+  				<li><a href="svg.html"><i class="fa fa-picture-o" aria-hidden="true"></i> SVG</a></li>
+    			<li><a href="git.html"><i class="fa fa-github" aria-hidden="true"></i> Git og GitHub</a></li>
+			</ul>
+		</nav>
+
+		<div id="wrapper">
+
+			<main>
+
+				<article>
+					<h2>Hva er SVG?</h2>
+					<p>SVG står for «Scalable Vector Graphics» som er basert på XML, og brukes til å vise grafikk på nettet. SVG dokumenter er bare enkle tekstfiler som beskriver linjer, kurver, former, farger og tekst. Det er også menneskelig lesbar, SVG kode kan bli manipulert via CSS eller JavaScript. Dette gir SVG en fleksibilitet som aldri kan matches av tradisjonelle PNG, GIF eller JPG.</p>
+
+					<p>SVG bruker former, tall og koordinater i stedet for piksel til å lage grafikk i nettleseren. Noe som gjør det uendelig scaleable uten å miste kvalitet. Med SVG kan du kombinere ulike former, baner og tekstelementer for å lage alle slags grafikk og være sikker på at de vil se klart og skarpt ut i hvilken som helst størrelse.</p>
+
+
+					<h3>SVG eksempler</h3>
+					<p>Her er få eksempler av SVG jeg fant på nettet. SVG alltid starter og slutter med svg tags som HTML. Jeg hentet eksempler fra <a href="https://www.w3schools.com/html/html5_svg.asp">w3schools.com</a></p>
+
+					<table>
+  						<tr>
+    						<th>Beskrivelse</th>
+    						<th>SVG</th>
+  						</tr>
+  						<tr>
+    						<td>Cx og Cy definerer x og y koordinatene til sirkel. Hvis cx og cy blir utelatt, sirkel senter er satt til (0,0). R attributtet definerer radius av sirkelen.</td>
+    						<td>
+    							<svg height="100" width="100">
+  									<circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="gray" />
+								</svg>
+    						</td>
+  						</tr>
+
+  						<tr>
+    						<td>Text elementet brukes til å definere tekst i SVG.</td>
+    						<td>
+								<svg height="60" width="200">
+  									<text x="0" y="15" fill="black" transform="rotate(30 20,40)">SVG tekst aaa</text>
+								</svg>
+    						</td>
+  						</tr>
+
+  						<tr>
+    						<td>Dette er en logo fra prosjektet jeg jobber med få andre personer. Logoen er i SVG format og kan skaleres til enhver størrelse uten å miste kvalitet. Logo ble laget i «Adobe Illustrator», men du kan se koden her <a href="https://raw.githubusercontent.com/BeefBytes/GmodHQ/master/logos/logo_svg_rectangle_black.svg">GitHub.com</a>. Du kan også klikke på den for å få den større.</td>
+    						<td>
+    							<a href="assets/img/gmodhq.svg"><img src="assets/img/gmodhq.svg" alt="#"></a>
+    						</td>
+  						</tr>
+
+					</table>
+					<br />
+
+				</article>
+
+			</main>
+		</div>
+
+		<footer>
+			<p><a href="omside.html">Om denne siden</a></p>
+		</footer>
+	</body>
+</html>

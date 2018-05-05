@@ -1,0 +1,86 @@
+@import url("normalize.css");
+@import 'article';
+@import 'footer';
+@import 'global';
+@import 'header';
+@import 'nav';
+@import 'sidebar';
+@import 'table';
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+#master-grid {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px auto auto auto;
+    grid-template-areas:    "header header header"
+                            "navbar navbar navbar"
+                            "mainContent mainContent sidebarContent"
+                            "footer footer footer";
+}
+
+#master-grid-article {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px auto auto auto;
+    grid-template-areas:    "header header header"
+                            "navbar navbar navbar"
+                            "mainContent mainContent mainContent"
+                            "footer footer footer";
+}
+
+@media only screen and (max-width: 768px) {
+
+#master-grid {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px auto auto auto auto;
+    grid-template-areas:    "header header header"
+                            "navbar navbar navbar"
+                            "sidebarContent sidebarContent sidebarContent"
+                            "mainContent mainContent mainContent"
+                            "footer footer footer";
+}
+
+}
+
+body * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f6f6;
+    font-family: roboto-regular;
+}
+
+header, main, footer, nav, article, aside, div {
+    display: block;
+    overflow: hidden;
+}
+
+
+
+main {
+    grid-area: mainContent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gist {width:auto !important;}
+.gist-file
+.gist-data {max-height: 300px;max-width: auto;}

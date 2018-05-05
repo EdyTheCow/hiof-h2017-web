@@ -1,0 +1,29 @@
+nav {
+    grid-area: navbar;
+    background-color: #03a9f4;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.24);
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #03a9f4;
+    margin: 0px auto;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #00aefd;
+}
